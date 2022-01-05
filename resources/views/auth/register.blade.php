@@ -1,10 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
+<div class="container" >
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card">
+            <div class="card" style="margin-top:150px;margin-bottom:100px;background: url('https://wallpapercave.com/wp/Rstecz1.jpg')">
                 <div class="card-header">{{ __('Register') }}</div>
 
                 <div class="card-body">

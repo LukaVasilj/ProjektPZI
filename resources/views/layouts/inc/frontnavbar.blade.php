@@ -1,5 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fas fa-gamepad"></i
+            ></a>
         <a class="navbar-brand" href="{{ url('/') }}">Online Shop</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -7,10 +10,21 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" aria-current="page" href="{{ url('/') }}">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ url('category') }}">Category</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('cart') }}">Cart
+                        <span class="badge badge-pill bg-primary cart-count">0</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('wishlist') }}">Wishlist
+                        <span class="badge badge-pill bg-success wishlist-count">0</span>
+
+                    </a>
                 </li>
 
                 @guest
@@ -31,10 +45,16 @@
                             {{ Auth::user()->name }}
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="{{ url('my-orders') }}">
+                                    My Orders
+                                </a>
+                            </li>
                             <li><a class="dropdown-item" href="#">My Profile</a></li>
                             <li><a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">{{ __('Logout') }}</a><form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                     @csrf
-                                </form></li>
+                                </form>
+                            </li>
                         </ul>
                     </li>
 
