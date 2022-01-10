@@ -94,7 +94,7 @@
         <div class="row">
             <div class="col-md-6 mt-3">
                 <h1 class="font2 text-white box1">Projekt PZI</h1>
-                <h4 class="text-white font4 box1">U ovom projektu napravili smo kupovinu PC igara preko interneta.</h4>
+                <h4 class="text-white font4 box1">U ovom projektu napravili smo kupovinu PC igara preko interneta.<a href="http://shorturl.at/bsO12" style="color:yellow;">Link od vizije</a></h4>
 
             </div>
             <div class="col-md-1">
