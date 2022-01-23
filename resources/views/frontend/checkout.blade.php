@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-    <div style="background: url('https://www.teahub.io/photos/full/19-193176_desktop-game-wallpaper-hd.jpg');height:50rem;">
+    <div style="background: url('https://www.teahub.io/photos/full/19-193176_desktop-game-wallpaper-hd.jpg');height:100%;">
     <div class="py-3 mb-4 shadow-sm bg-warning border-top" >
         <div class="container" >
             <h6 class="mb-0" >
@@ -19,7 +19,7 @@
         </div>
     </div>
 
-    <div class="container mt-5">
+    <div class="container mt-5" style="height: 50rem;">
         <form action=" {{ ('place-order') }}" method="POST">
             {{ csrf_field() }}
         <div class="row">

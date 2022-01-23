@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-    <div style="background: url('https://www.teahub.io/photos/full/19-193176_desktop-game-wallpaper-hd.jpg');height:50rem;">
+    <div style="background: url('https://www.teahub.io/photos/full/19-193176_desktop-game-wallpaper-hd.jpg');height:100%;">
     <div class="container py-5" >
         <div class="row">
             <div class="col-md-12">

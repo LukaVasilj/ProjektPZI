@@ -102,7 +102,78 @@
     border: 1px solid black;
     text-align: center;
     background-color: rgba(0,0,1,0.5);
-
 }
+
+@media (min-width: 300px) {
+    .iframe{
+        width:450px;
+        height:400px;
+    }
+    .slikaresponsive{
+        width:450px;
+        height:400px;
+    }
+    .slider{
+        height:400px;
+    }
+    .cardd{
+
+        width:305px;
+    }
+}
+@media (min-width: 768px) {
+    .iframe{
+        margin-left:200px;
+        width:400px;
+        height:400px;
+    }
+    .slikaresponsive{
+        width:300px;
+        height:300px;
+    }
+    .slider{
+        height:400px;
+    }
+    .cardd{
+
+    }
+}
+@media (min-width: 992px) {
+    .iframe{
+        margin-left:200px;
+        width:400px;
+        height:400px;
+    }
+    .slikaresponsive{
+        width:400px;
+        height:400px;
+    }
+    .slider{
+        height:47rem;
+    }
+    .cardd{
+
+
+    }
+}
+@media (min-width: 1200px) {
+    .iframe{
+        margin-left:200px;
+        width:820px;
+        height:400px;
+    }
+    .slikaresponsive{
+        width:550px;
+        height:400px;
+    }
+    .slider{
+        height:47rem;
+    }
+    .cardd{
+
+    }
+}
+
+
 
 

@@ -68,7 +68,7 @@
             </h6>
         </div>
     </div>
-    <div style="background: url('https://livewallpaperhd.com/wp-content/uploads/2020/05/Light-Colorful-HD-Wallpaper.jpg');height:100%;background-repeat: no-repeat;">
+    <div style="background: url('https://livewallpaperhd.com/wp-content/uploads/2020/05/Light-Colorful-HD-Wallpaper.jpg');height:100%;">
     <div class="container pb-5" >
         <div class=" product_data">
             <div class="">
@@ -137,6 +137,7 @@
                         </div>
                     </div>
 
+
                     <div class="col-md-12">
                         <hr>
                         <h3 class="font2">Description</h3>
@@ -193,6 +194,7 @@
         </div>
     </div>
     </div>
+
 
 
 

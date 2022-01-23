@@ -64,7 +64,7 @@
     <div class="container p-4">
         <div class="row">
             <div class="col-md-5 ">
-                <img src="{{ asset('assets/images/jojstick1.png') }}" class="circular--square" alt="..." style="weight:250px;height:380px;">
+                <img src="{{ asset('assets/images/jojstick1.png') }}" class="circular--square slikaresponsive" alt="..." >
 
             </div>
             <div class="col-md-1">
@@ -80,7 +80,7 @@
         <div class="container p-4">
             <div class="row">
                 <div class="col-md-6 mt-3" >
-                    <iframe style="margin-left:200px;" width="820" height="400" src="https://www.youtube.com/embed/Vl-MZXYvjhw">
+                    <iframe class="iframe" src="https://www.youtube.com/embed/Vl-MZXYvjhw">
                     </iframe>
 
                 </div>
@@ -89,7 +89,7 @@
             </div>
         </div>
     </div>
-    <div class="py-4" style="background: url('https://cdn.wallpapersafari.com/26/31/2oJ06z.jpg')">
+    <div class="py-4 " style="background: url('https://cdn.wallpapersafari.com/26/31/2oJ06z.jpg')">
     <div class="container p-4 mt-3" >
         <div class="row">
             <div class="col-md-6 mt-3">
@@ -101,7 +101,7 @@
 
             </div>
             <div class="col-md-5">
-                <img src="{{ asset('assets/images/slika2.jpg') }}" class="circular--square" alt="..." style="weight:150px;height:330px;">
+                <img src="{{ asset('assets/images/slika2.jpg') }}" class="circular--square slikaresponsive" alt="..." style="weight:150px;height:330px;">
         </div>
     </div>
     </div>

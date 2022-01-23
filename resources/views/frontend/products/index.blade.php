@@ -18,7 +18,7 @@
                 <h2 class="text-white"> {{ $category->name }}</h2>
             @foreach($products as $prod)
                     <div class="col-md-3 mb-3">
-                        <div class="card" style="height:417px">
+                        <div class="card cardd" style="height:417px">
                             <a href="{{ url('view-category/'.$category->slug.'/'.$prod->slug) }}">
                             <img src="{{ asset('assets/uploads/products/'.$prod->image) }}" alt="Product image" class="categoryslike">
                             <div class="card-body" style="background: url('https://cdn.cbeditz.com/cbeditz/preview/blue-gradient-background-wallpapers-58-11614501598qm0t3wuwth.jpg');">
