@@ -14,12 +14,12 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-        
+
 
         \DB::table('users')->delete();
-        
+
         \DB::table('users')->insert(array (
-            0 => 
+            0 =>
             array (
                 'id' => 1,
                 'name' => 'Luka',
@@ -28,7 +28,7 @@ class UsersTableSeeder extends Seeder
                 'password' => '$2y$10$/rpFPen5i8vGYKYKO7Csfe.Rn5GaEhh6xLFlgy3K.NnxbGAnx6XEO',
                 'lname' => 'Vasilj',
                 'phone' => '063863733',
-                'address1' => 'Put Krizevca 35, Nema nista, Nema nista',
+                'address1' => 'Put Krizevca 35',
                 'address2' => 'Nema nista',
                 'city' => 'Mostar',
                 'state' => 'Mostar',
@@ -39,7 +39,7 @@ class UsersTableSeeder extends Seeder
                 'created_at' => '2021-12-13 11:16:15',
                 'updated_at' => '2021-12-26 16:33:59',
             ),
-            1 => 
+            1 =>
             array (
                 'id' => 2,
                 'name' => 'Admin',
@@ -60,7 +60,7 @@ class UsersTableSeeder extends Seeder
                 'updated_at' => '2021-12-13 11:42:16',
             ),
         ));
-        
-        
+
+
     }
 }
