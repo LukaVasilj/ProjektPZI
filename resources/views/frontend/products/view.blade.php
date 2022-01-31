@@ -68,7 +68,7 @@
             </h6>
         </div>
     </div>
-    <div style="background: url('https://livewallpaperhd.com/wp-content/uploads/2020/05/Light-Colorful-HD-Wallpaper.jpg');height:100%;">
+<div style="background: url('https://www.wallpapers4u.org/wp-content/uploads/lines_wavy_light_form_46443_1920x1080.jpg');height:100%;">
     <div class="container pb-5" >
         <div class=" product_data">
             <div class="">
@@ -193,7 +193,8 @@
             </div>
         </div>
     </div>
-    </div>
+</div>
+
 
 
 

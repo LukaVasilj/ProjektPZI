@@ -120,6 +120,7 @@
 
         width:305px;
     }
+
 }
 @media (min-width: 768px) {
     .iframe{
@@ -174,6 +175,14 @@
     }
 }
 
-
+.iskace:hover {
+    transform: scale(1.1,1.1);
+    transition: all .2s ease-in;
+}
+.iskace {
+    transform: none;
+    transition: all .2s ease-in;
+    margin-bottom: 5px;
+}
 
 

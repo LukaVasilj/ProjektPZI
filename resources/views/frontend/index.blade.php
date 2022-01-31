@@ -197,22 +197,22 @@
                 <div class="row">
                     <!--Grid column-->
 
-                    <div class="col-lg-2 col-md-3 mb-4 mb-md-0">
+                    <div class="col-lg-2 col-md-3 mb-4 mb-md-0 iskace">
                         <img src="{{ asset('assets/images/html.png') }}" class=" " alt="..." style="">
                     </div>
-                    <div class="col-lg-2 col-md-3 mb-4 mb-md-0">
+                    <div class="col-lg-2 col-md-3 mb-4 mb-md-0 iskace">
                         <img src="{{ asset('assets/images/css.png') }}" class=" " alt="..." style="">
                     </div>
-                    <div class="col-lg-2 col-md-3 mb-4 mb-md-0">
+                    <div class="col-lg-2 col-md-3 mb-4 mb-md-0 iskace">
                         <img src="{{ asset('assets/images/js.png') }}" class=" " alt="..." style="">
                     </div>
-                    <div class="col-lg-2 col-md-3 mb-4 mb-md-0">
+                    <div class="col-lg-2 col-md-3 mb-4 mb-md-0 iskace">
                         <img src="{{ asset('assets/images/php.png') }}" class=" " alt="..." style="">
                     </div>
-                    <div class="col-lg-2 col-md-3 mb-4 mb-md-0">
+                    <div class="col-lg-2 col-md-3 mb-4 mb-md-0 iskace">
                         <img src="{{ asset('assets/images/jq.png') }}" class=" " alt="..." style="">
                     </div>
-                    <div class="col-lg-2 col-md-3 mb-4 mb-md-0">
+                    <div class="col-lg-2 col-md-3 mb-4 mb-md-0 iskace">
                         <img src="{{ asset('assets/images/bootstrap.png') }}" class=" " alt="..." style="">
                     </div>
 
